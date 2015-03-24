@@ -43,7 +43,7 @@ public class JQMPage extends JQMContainer implements HasFullScreen<JQMPage> {
 
     private static int counter = 1;
 
-    /** Needed to find out JQMPage by its Element received usually from JS */
+    /** Needed to find out JQMPage by its Element received usually from  JS */
     private static final Map<Element, JQMPage> allPages = new HashMap<Element, JQMPage>(); // there is no WeakHashMap in GWT
 
     /** The primary content div */
